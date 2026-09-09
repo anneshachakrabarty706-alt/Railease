@@ -78,3 +78,13 @@ RailEase
     ├── Booking Issues
     ├── Payment Issues
     └── Login / OTP Issues
+
+### 🎯 Next milestone
+
+After you mark **Step 10 done**, we'll start **Step 11 — Wireframes**.
+
+That's where we'll decide the actual screens RailEase needs, such as:
+
+**Home → Search Results → Passenger Details → Payment → Booking Status → Confirmation.**
+
+Then we'll take those wireframes into **Figma** and eventually turn RailEase into a portfolio-ready clickable prototype. 
