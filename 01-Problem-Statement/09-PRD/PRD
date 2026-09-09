@@ -1,0 +1,256 @@
+railease-mvp-prd.md
+# 🚆 RailEase — MVP Product Requirements Document
+
+## 1. Product Overview
+
+RailEase is a conceptual railway booking experience created as part of an IRCTC case study.
+
+The MVP focuses on making the booking journey more reliable, transparent and easier to recover from when something goes wrong.
+
+---
+
+## 2. MVP Objective
+
+The objective is to reduce uncertainty and friction during railway ticket booking.
+
+The MVP will focus on three core areas:
+
+1. Simplified Booking Flow
+2. Transparent Booking & Payment Status
+3. Better Error Recovery
+
+---
+
+## 3. Target User
+
+### Primary User
+
+A frequent railway passenger who books tickets online and may experience technical or booking-related issues.
+
+Example persona:
+
+**Rahul Sharma, 28**
+
+- Working professional
+- Delhi NCR
+- Frequently travels long-distance
+- Books tickets online
+- Occasionally uses Tatkal
+- Values speed and reliability
+
+---
+
+# 4. Feature Requirements
+
+## Feature 1 — Simplified Booking Flow
+
+### Problem
+
+Users may experience friction while searching for trains, selecting a train and completing the booking process.
+
+### Goal
+
+Create a simpler and more understandable booking journey.
+
+### Proposed Flow
+
+**Search → Select Train → Select Class → Passenger Details → Review → Payment → Confirmation**
+
+### Requirements
+
+- Users should be able to search trains easily.
+- Train information should be clearly presented.
+- Class and availability should be easy to understand.
+- Passenger information should be simple to enter.
+- Users should see a clear progress indicator.
+- Users should be able to review important details before payment.
+
+---
+
+# 5. Feature 2 — Booking & Payment Status
+
+### Problem
+
+Users may become uncertain after payment because they do not immediately know whether the ticket has been booked successfully.
+
+### Goal
+
+Clearly communicate the current state of the transaction.
+
+### Possible States
+
+**Payment Pending**
+
+Payment is being processed.
+
+**Booking Processing**
+
+Payment has been received and booking status is being checked.
+
+**Booking Confirmed**
+
+Your ticket has been successfully booked.
+
+**Booking Failed**
+
+The ticket could not be booked.
+
+### Requirements
+
+- Show clear transaction status.
+- Clearly distinguish payment status from booking status.
+- Provide a booking reference/PNR when available.
+- Provide clear next steps when booking fails.
+- Avoid ambiguous messages.
+
+---
+
+# 6. Feature 3 — Error Recovery
+
+### Problem
+
+Technical errors can leave users stuck without knowing what to do next.
+
+### Goal
+
+Turn errors into recoverable experiences.
+
+### Example
+
+Instead of:
+
+> "Something went wrong."
+
+Show:
+
+> "We couldn't complete your booking right now."
+
+Then provide:
+
+**[Check Booking Status]**
+
+**[Try Again]**
+
+**[Go Back]**
+
+### Requirements
+
+- Error messages should be easy to understand.
+- Users should know what happened.
+- Users should receive a recommended next action.
+- Important booking information should not be lost unnecessarily.
+- Users should be able to retry where appropriate.
+
+---
+
+# 7. User Stories
+
+## Booking
+
+> As a passenger, I want a simple booking flow so that I can complete my ticket booking without unnecessary confusion.
+
+## Payment Status
+
+> As a passenger, I want to clearly understand my payment and booking status so that I know whether my ticket has been booked.
+
+## Error Recovery
+
+> As a passenger, I want clear recovery options when something goes wrong so that I know what to do next.
+
+---
+
+# 8. Acceptance Criteria
+
+### Simplified Booking
+
+- User can search for a train.
+- User can select a train and class.
+- User can enter passenger details.
+- User can review booking details.
+- User can proceed to payment.
+
+### Booking Status
+
+- User can see payment status.
+- User can see booking status.
+- Confirmed booking displays relevant ticket information.
+- Failed booking provides clear next steps.
+
+### Error Recovery
+
+- Error message explains the problem in simple language.
+- User receives at least one relevant recovery action.
+- Booking progress is preserved where possible.
+
+---
+
+# 9. Out of Scope
+
+The following are not part of the first MVP:
+
+- Food ordering
+- Loyalty programs
+- Social features
+- Travel marketplace
+- Advanced personalization
+- Complete railway ecosystem redesign
+
+These may be explored in future versions.
+
+---
+
+# 10. Success Metrics
+
+The MVP could be evaluated using:
+
+### Booking Completion Rate
+
+Percentage of users who successfully complete the booking journey.
+
+### Booking Failure Rate
+
+Percentage of booking attempts that fail.
+
+### Payment-to-Confirmation Drop-off
+
+Percentage of users who make a payment but do not reach a clear booking confirmation.
+
+### Error Recovery Rate
+
+Percentage of users who successfully recover after encountering an error.
+
+### Task Completion Time
+
+Time taken by users to complete the booking journey.
+
+### User Satisfaction
+
+User rating of the booking experience after completing the journey.
+
+---
+
+# 11. Product Principle
+
+> **Never leave the passenger wondering what happened.**
+
+The product should always communicate:
+
+**What happened → What is happening → What should I do next?**
+
+---
+
+# 12. MVP Summary
+
+RailEase MVP will focus on:
+
+**Simplify the booking → Clarify the status → Help the user recover**
+
+The objective is not to build every railway travel feature.
+
+The objective is to solve the most important booking problems identified through research.
+
+---
+
+## Next Step
+
+Create the RailEase user flow and information architecture before moving into the visual prototype.
