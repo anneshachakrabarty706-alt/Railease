@@ -151,6 +151,25 @@ PRD
 User Flow
       ↓
 Prototype
+# 📱 Prototype
+
+A conceptual Figma prototype was created to demonstrate the proposed booking experience.
+
+### 🔗 View Prototype
+
+[Open the RailEase Figma Prototype](https://www.figma.com/proto/Az4VwIzRVvlc6Y8115eh81/RailEase-%E2%80%94-IRCTC-Case-Study?node-id=1-2&t=gSsZgLwNPk4ouijJ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2))
+
+### Key screens
+
+- Home / Search
+- Search Results
+- Passenger Details
+- Review & Payment
+- Booking Status
+- Booking Confirmation
+- My Journeys
+- Help & Support
+- Payment Issue / Error Recovery
       ↓
 Usability Testing
       ↓
