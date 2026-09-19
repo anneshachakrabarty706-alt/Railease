@@ -1,59 +1,159 @@
-# 🚆 RailEase
+# 🚆 RailEase — Your Journey, Made Easy
 
-### Your Journey, Made Easy.
+## Product Management Case Study
 
-RailEase is a conceptual railway travel platform designed to simplify the train travel experience by bringing train discovery, booking, live train tracking and food ordering into one user-friendly experience.
+RailEase is a **conceptual railway booking experience** created as an independent Product Management case study based on challenges observed in online railway ticket booking.
+
+The case study explores how the railway booking experience could become more:
+
+**Reliable + Transparent + Simple + Recoverable**
+
+> **This is an independent case study and is not affiliated with or endorsed by IRCTC.**
 
 ---
 
 ## 🎯 Project Overview
 
-**Project Type:** Product Management Case Study
-
-**Role:** Product Manager
-
-**Status:** Concept / Discovery
-
-**Target Market:** Indian Railway Passengers
-
----
-
-## 🚨 Problem
-
-Existing railway travel experiences can be complicated for users who need to search for trains, manage bookings, track trains and arrange food during their journey.
-
-RailEase aims to simplify these experiences through a single, user-friendly platform.
+| | |
+|---|---|
+| **Project Type** | Product Management Case Study |
+| **Role** | Product Manager — Independent Project |
+| **Domain** | Railway Travel / Booking |
+| **Target Users** | Indian Railway Passengers |
+| **Status** | Concept / Prototype |
 
 ---
 
-## 💡 Proposed Solution
+# 🚨 The Problem
 
-RailEase will provide:
+Passengers can experience friction while booking railway tickets, especially during time-sensitive situations such as Tatkal booking.
 
-- 🔎 Simple train search
-- 🎫 Easy ticket booking
-- 🚆 Live train tracking
-- 🍔 Food ordering
-- 🔔 Journey notifications
-- 📋 Easy ticket management
+The research explored problems including:
+
+- Slow loading
+- Website/app availability issues
+- Login and OTP friction
+- Unexpected logout
+- Tatkal booking difficulties
+- Payment and booking uncertainty
+- Confusing navigation
+- Unclear error recovery
+
+The key opportunity identified was not simply visual redesign.
+
+It was to improve **reliability and transparency during critical booking moments.**
 
 ---
 
-## 📌 Project Sections
+# 🔎 User Research
 
-Coming soon...
+Research included:
 
-- Problem Statement
-- User Research
-- User Personas
-- Competitor Analysis
-- Product Strategy
-- User Journey
-- Feature Prioritization
-- MVP
-- PRD
-- User Stories
-- UX
-- Metrics
-- Product Roadmap
-- Prototype
+- User survey
+- Qualitative observations
+- Personal booking experience
+- Review of public online discussions
+
+The research was exploratory and directional rather than statistically representative.
+
+### Key Research Insight
+
+Users should always understand:
+
+> **What happened → What is happening → What should I do next?**
+
+---
+
+# 🎯 Final Problem Statement
+
+> **How might we make the railway booking experience more reliable, transparent and stress-free for passengers, especially during high-demand booking situations such as Tatkal?**
+
+---
+
+# 💡 Product Opportunity
+
+Based on the research and problem prioritization, RailEase focuses on:
+
+### ⚡ Speed
+Reduce unnecessary friction and waiting.
+
+### 🔒 Reliability
+Reduce interruptions during important booking actions.
+
+### 👁️ Transparency
+Clearly communicate payment and booking status.
+
+### 🧭 Simplicity
+Make the booking journey easier to understand.
+
+### 🆘 Recovery
+Give users clear next steps when something goes wrong.
+
+---
+
+# 🚀 MVP
+
+The MVP focuses on three core problems:
+
+### 1. Simplified Booking Flow
+
+A straightforward journey from train search to confirmation.
+
+### 2. Booking & Payment Status
+
+Clear communication of:
+
+- Payment status
+- Verification status
+- Booking status
+- Booking reference
+- Next action
+
+### 3. Better Error Recovery
+
+When something goes wrong, users should understand:
+
+**What happened → What is happening → What should I do next?**
+
+Possible actions:
+
+- Check Booking Status
+- Try Again
+- Get Help
+
+---
+
+# 🧠 Product Thinking
+
+The case study follows a structured Product Management process:
+
+```text
+User Research
+      ↓
+Problem Identification
+      ↓
+Problem Prioritization
+      ↓
+User Persona
+      ↓
+User Journey
+      ↓
+Final Problem Statement
+      ↓
+Solution Exploration
+      ↓
+Feature Prioritization
+      ↓
+MVP
+      ↓
+PRD
+      ↓
+User Flow
+      ↓
+Prototype
+      ↓
+Usability Testing
+      ↓
+Success Metrics
+      ↓
+Product Roadmap
